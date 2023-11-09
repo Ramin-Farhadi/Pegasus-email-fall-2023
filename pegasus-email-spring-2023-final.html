@@ -1,0 +1,673 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1.0"><!-- So that mobile webkit will display zoomed in -->
+    <link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/stylesheet.css">
+    <title>Pegasus Magazine - Spring 2023</title>
+
+    <!--[if gte mso 9]>
+    <style>
+    ul {
+       margin: 0 0 0 24px;
+       padding: 0;
+       list-style-position: inside;
+    }
+    </style>
+    <![endif]-->
+
+    <style type="text/css">
+      @font-face {
+        font-family: 'montserratbold';
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.eot');
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.woff') format('woff'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.ttf') format('truetype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        letter-spacing: 1px;
+      }
+
+      @font-face {
+        font-family: 'montserratlight';
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.eot');
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.woff2') format('woff2'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.woff') format('woff'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.ttf') format('truetype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        letter-spacing: 1px;
+      }
+
+      @font-face {
+        font-family: 'montserratsemi_bold';
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.eot');
+        src: url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.woff') format('woff'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.ttf') format('truetype'),
+        url('https://s3.amazonaws.com/web.ucf.edu/email/common-assets/fonts/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        letter-spacing: 1px;
+      }
+
+      /* CSS Resets */
+      .ReadMsgBody { width: 100%; background-color: #ffffff;}
+      .ExternalClass {width: 100%; background-color: #ffffff;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+      body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+      body {margin:0; padding:0;}
+      table {border-spacing:0;border-collapse:collapse;}
+      table td {padding: 0;}
+
+      * {zoom:1;}
+      a {color:#006699;}
+      div, p, a, li, td { -webkit-text-size-adjust:none; } /* ios likes to enforce a minimum font size of 13px; kill it with this */
+
+
+      /**
+       * Outlook 2007-2013 hates inline webfont declarations and won't use fallback fonts,
+       * so use class-based overrides instead
+       **/
+      *[class="montserratlight"] {
+        font-family: 'montserratlight', Helvetica, Arial, sans-serif !important;
+      }
+
+      *[class="montserratsemibold"] {
+        font-family: 'montserratsemi_bold', Helvetica, Arial, sans-serif !important;
+      }
+
+      *[class="montserratbold"] {
+        font-family: 'montserratbold', Helvetica, Arial, sans-serif !important;
+        font-weight: normal !important;
+      }
+
+      td[class="givebtn"] {
+        font-family: 'montserratsemi_bold', Helvetica, Arial, sans-serif !important;
+      }
+
+      td[class="givedesc"] {
+        font-family: 'montserratsemi_bold', Helvetica, Arial, sans-serif !important;
+      }
+      .ctabtn-100{
+              display: block;
+              padding: 15px 10px 15px 10px;
+              margin-top: 15px;
+              background-color: #fc0;
+              backface-visibility: hidden;
+              border-radius: 6px;
+              border-width: 0;
+              box-sizing: border-box;
+              text-decoration: none;
+              color: #000 !important;
+              cursor: pointer;
+              font-family: "montserratsemi_bold";
+              font-size: 100%;
+              height: 44px;
+              line-height: 1.15;
+              outline: none;
+              overflow: hidden;
+              text-align: center;
+              width: 100%;
+      }
+      .ctabtn-black-100{
+              display: block;
+              background-color: #000;
+              backface-visibility: hidden;
+              border-radius: 6px;
+              border-width: 0;
+              box-sizing: border-box;
+              color: #fff !important;
+              cursor: pointer;
+              font-family: "montserratsemi_bold";
+              font-size: 100%;
+              height: 44px;
+              line-height: 1.15;
+              margin: 12px 0 0;
+              outline: none;
+              overflow: hidden;
+              padding: 15px 0px 15px 0px; 
+              text-align: center;
+              text-decoration: none;
+              width: 100%;
+      }
+      .ctabtn-headline{
+              padding: 12px 50px 12px 50px ;
+              background-color: #fc0;
+              backface-visibility: hidden;
+              border-radius: 6px;
+              border-width: 0;
+              box-sizing: border-box;
+              color: #000 !important;
+              cursor: pointer;
+              font-family: "montserratsemi_bold";
+              font-size: 100%;
+              height: 44px;
+              position: relative;
+              line-height: 1.15;
+              outline: none;
+              overflow: hidden;
+              text-decoration: none;
+              width: 50%;
+      }
+      .center {
+        text-align: center; width: 100%; margin: 0 auto;
+      }
+   
+
+      @media all and (max-width: 640px) {
+        table {
+          border-collapse: separate !important;
+        }
+
+        /* The outermost wrapper table */
+        table[class="wrapperOuter"] {
+          width: 100% !important;
+          margin: 0 !important;
+        }
+
+        /* The firstmost inner tables, which should be padded at mobile sizes */
+        table[class="wrapperInner"] {
+          width: 100% !important;
+          padding-left: 15px;
+          padding-right: 15px;
+          border-left: 0px solid transparent !important;
+          border-right: 0px solid transparent !important;
+          margin: 0 !important;
+        }
+
+        /* Generic class for a table column that should collapse to 100% width at mobile sizes */
+        td[class="columnCollapse"],
+        th[class="columnCollapse"] {
+          border-left: 0px solid transparent !important;
+          border-right: 0px solid transparent !important;
+          clear: both;
+          display: block !important;
+          float: left;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          overflow: hidden;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          width: 100% !important;
+        }
+
+        /* Generic class for a table within a column that should be forced to 100% width at mobile sizes */
+        table[class="tableCollapse"] {
+          border-left: 0px solid transparent !important;
+          border-right: 0px solid transparent !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          width: 100% !important;
+        }
+
+        /* Forces an image to fit 100% width of its parent */
+        img[class="responsiveimg"] {
+          max-width: none !important;
+          width: 100% !important;
+        }
+
+        *[class="hidemobile"] {
+          display: none;
+          font-size: 0;
+          line-height: 0;
+          max-height: 0;
+          mso-hide: all; /* hide elements in Outlook 2007-2013 */
+          overflow: hidden;
+          width: 0;
+        }
+
+        *[class="showmobile"] {
+          display: block !important;
+          font-size: initial;
+          line-height: initial;
+          max-height: none !important;
+          mso-hide: none !important;
+          overflow: visible !important;
+          width: auto !important;
+        }
+
+        td[class="givebtn"] {
+          font-size: 16px !important;
+          padding: 10px !important;
+        }
+
+        td[class="givedesc"] {
+          font-size: 16px !important;
+        }
+        td[class="zPattern"] {
+          display: block;
+          width: 100%;
+          padding: 5px 0px!important;
+        }
+        tr[class="zPatternColReversed"]{
+          display: flex;
+          flex-flow: column;
+          height: 550px !important;
+        }
+      }
+
+      @media screen and (max-width: 321px){
+        td .mainTitle{
+          font-size: 32px !important;
+        }
+        td .secTitle{
+          font-size: 20px !important;
+        }
+        a {
+          width: 100% !important;
+        }
+        .moreInThisIssue {
+          display: none!important;
+        }
+       
+      }
+
+
+    </style>
+  </head>
+  <body style="background-color: white;">
+    <table width="100%" align="center" style="width: 100% !important; table-layout: fixed;"><tbody>
+      <tr>
+        <td align="center" style="padding: 0;">
+          <table class="wrapperOuter" width="640" align="center" style="width: 640px; border: 1px solid #aaa; border-spacing: 0; border-collapse: collapse;">
+            <tbody>
+            <tr>
+              <td align="center" style="padding: 0;">
+                <table class="wrapperInner" width="600" align="center" style="border-spacing: 0; border-collapse: collapse;"><tbody>
+                  <!-- <tr>
+                    <td style="padding-bottom: 20px; padding-left: 0; padding-right: 0; padding-top: 0; text-align: center;">
+                        <div class="hidemobile"><a href="https://www.ucf.edu/pegasus/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=desktop-header"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/header-pegasus-desktop.png" alt="Pegasus Magazine: The magazine of the University of Central Florida" border="0"></a></div>
+                        <div class="showmobile" style="display: none; margin: 0 auto; mso-hide: all; width: 0; max-height: 0; overflow: hidden;"><a href="https://www.ucf.edu/pegasus/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=mobile-header"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/header-pegasus-mobile.png" alt="Pegasus Magazine: The magazine of the University of Central Florida" class="responsiveimg" border="0"></a></div>
+                    </td>
+                  </tr> -->
+
+                  <tr>
+                    <td style="padding: 0;">
+                      <table class="tableCollapse" width="600" border="0" align="center" style="padding: 0; border-spacing: 0; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                            <td style="padding-bottom: 0; padding-top: 10px; padding-left: 0; padding-right: 0; border-bottom: 1px solid #aaa;">
+                              <table class="tableCollapse" width="600" border="0" align="center" style="border-spacing: 0; border-collapse: collapse;"><tbody>
+                                <tr>
+                                  <td style="padding-left: 0; padding-right: 0;">
+                                    <a href="https://www.ucf.edu/pegasus/the-new-era-of-simulation/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Fall/img/FA23-Cover-v2.png" class="responsiveimg" alt="Simulation of a natural environment" border="0" style="height: 100%; width: 100%; object-fit: cover; object-position: 50% 50%;"></a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align='center' class="montserratbold mainTitle" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 2.5rem; font-weight: bold; padding-top: 35px; padding-bottom: 4px; line-height: 1.1; color: #000; text-align: left;" align="left"><div class="center">
+                                    <a href="https://www.ucf.edu/pegasus/the-new-era-of-simulation/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="color: #000; text-decoration: none;">THE RISE OF SPACEU</a>
+                                  </div></td>
+                                </tr>
+                                <tr>
+                                  <td class="montserratlight" style="padding-bottom: 20px; padding-top:15px padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #000; text-align: left;" align="left"><div class="center">
+                                    <p class='secTitle' style="font-size: 1.5rem; margin: 5px 0px;">and the path to new frontiers...</p>
+                                  </div><div style="text-align: center; margin: 30px 0px;"><a class="ctabtn-headline montserratsemibold" href="https://www.ucf.edu/pegasus/the-new-era-of-simulation/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link">Discover More</a></div></td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td style="padding-bottom: 0; padding-top: 0px; padding-left: 0; padding-right: 0; border-bottom: 1px solid #aaa;">
+                              <table class="tableCollapse" width="600" border="0" align="center" style="
+                                        border-spacing: 0;
+                                        border-collapse: collapse;
+                                      ">
+                                      <tbody>
+                                        <tr style="
+                                            height: 200px;
+                                          ">
+                                          <td style="
+                                              padding-left: 0;
+                                              padding-right: 0;
+                                            "
+                                            class="zPattern">
+                                            <a href="https://www.ucf.edu/pegasus/critical-care/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-03-CriticalCare.jpg" class="responsiveimg" alt="UCF Nursing students learning in medical classroom" border="0" style="
+                                                  width: 100% !important;
+                                                  height: 300px;
+                                                  object-fit: cover;
+                                                  border-radius: 5px;
+                                                  object-position: 100% 50%;
+                                                "></a>
+                                          </td>
+                                          <td width="50%" style="padding: 10px 50px" class="zPattern">
+                                            <div class="montserratbold" style="
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                                font-family: Helvetica, Arial,
+                                                  sans-serif;
+                                                font-size: 24px;
+                                                font-weight: bold;
+                                                padding-top: 15px;
+                                                padding-bottom: 4px;
+                                                line-height: 1.1;
+                                                color: #000;
+                                                text-align: left;
+                                              " align="left">
+                                              <a href="https://www.ucf.edu/pegasus/critical-care/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="
+                                                  color: #000;
+                                                  text-decoration: none;
+                                                ">Critical Care</a>
+                                            </div>
+                                            <div class="montserratlight" style="
+                                                padding-top: 15px;
+                                                padding-bottom: 20px;
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                                font-family: Helvetica, Arial,
+                                                  sans-serif;
+                                                font-size: 16px;
+                                                line-height: 1.6;
+                                                color: #000;
+                                                text-align: left;
+                                              " align="left">
+                                              <!-- btn test -->
+                                              UCF has long provided compassionate and highly qualified nursing graduates. With a national nursing shortage, they&rsquo;re needed now more than ever. 
+                                              <a class='ctabtn-100 montserratsemibold' href="https://www.ucf.edu/pegasus/critical-care/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link" style="
+                                                ">
+                                             
+                                                  Learn More
+                                            
+                                              </a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                      </tbody>
+                                    </table>
+                              
+                            </td>
+                          </tr>
+
+<!-- When we are martians -->
+                          <tr>
+                              <table class="tableCollapse" width="600" border="0" align="center" style="
+                                        border-spacing: 0;
+                                        border-collapse: collapse;
+                                      ">
+                                      <tbody>
+                                        <tr style="height: 200px;" class="zPatternColReversed">
+                                          
+                                          <td width="50%" style="padding: 10px 50px; order: 2;" class="zPattern">
+                                            <div class="montserratbold" style="
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                                font-family: Helvetica, Arial,
+                                                  sans-serif;
+                                                font-size: 24px;
+                                                font-weight: bold;
+                                                padding-top: 15px;
+                                                padding-bottom: 4px;
+                                                line-height: 1.1;
+                                                color: #000;
+                                                text-align: left;
+                                              " align="left">
+                                              <a href="https://www.ucf.edu/pegasus/when-we-are-martians/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="
+                                                  color: #000;
+                                                  text-decoration: none;
+                                                ">When We Are Martians</a>
+                                            </div>
+                                            <div class="montserratlight" style="
+                                                padding-top: 15px;
+                                                padding-bottom: 20px;
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                                font-family: Helvetica, Arial,
+                                                  sans-serif;
+                                                font-size: 16px;
+                                                line-height: 1.6;
+                                                color: #000;
+                                                text-align: left;
+                                              " align="left">
+                                               Prominent UCF space researchers ponder the bigger questions about how we will manage future environments with lessons from the past. 
+                                              <a class="ctabtn-100 montserratsemibold" href="https://www.ucf.edu/pegasus/when-we-are-martians/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link" style="
+                                                ">
+                                                  Learn More
+                                              </a>
+                                            </div>
+                                          </td>
+                                          <td style="
+                                              padding-left: 0;
+                                              padding-right: 0;
+                                              order: 1;
+                                            " class="zPattern">
+                                            <a href="https://www.ucf.edu/pegasus/when-we-are-martians/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-04-WhenWeAreMartians.jpg" class="responsiveimg" alt="Astronaut looking out onto a martian landscape" border="0" style="
+                                                  width: 100%;
+                                                  height: 300px;
+                                                  object-fit: cover;
+                                                  border-radius: 5px;
+                                                  object-position: 100% 50%;
+                                                "></a>
+                                          </td>
+                                        </tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                      </tbody>
+                                    </table>
+                              
+                            </td>
+                          </tr>  
+<!--End of When we are martians -->
+                          <div class="moreInThisIssue">
+                          <tr>
+                            <td style="padding-bottom: 0; padding-top: 0px; padding-left: 0; padding-right: 0; border-bottom: 3px dotted #aaa;">
+                          </tr>
+                          <tr>
+                            <td><div class="montserratbold" style="color: #535353;text-align: center; padding-top: 10px; padding-bottom: 10px;">More In This Issue...</div></td>
+                          </tr>
+                          <tr>
+                            <td style="padding-bottom: 0; padding-top: 0px; padding-left: 0; padding-right: 0; border-bottom: 3px dotted #aaa;">
+                          </tr>
+                        </div>
+                          <tr>
+                            <td style="padding-top: 0; padding-left: 0; padding-right: 0;">
+                                <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                <tr>
+                                  <th class="columnCollapse" width="290" style="padding-right: 10px; padding-bottom: 20px; padding-left: 0; vertical-align: top;">
+                                    <table class="tableCollapse" align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+
+                                      <tr>
+                                        <td style="padding-bottom: 0; padding-top: 20px; padding-left: 0; padding-right: 0;">
+                                          <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                            <tr>
+                                              <td style="padding-left: 0; padding-right: 0;">
+                                                <a href="https://www.ucf.edu/pegasus/steam-engine/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-05-SteamEngine.jpg" class="responsiveimg" alt="Mobile Geospatial Technology Lab" border="0" width="100%"></a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratbold" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; padding-top: 15px; color: #000; padding-bottom: 4px; line-height: 1.1; text-align: left;" align="left">
+                                                <a href="https://www.ucf.edu/pegasus/steam-engine/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="color: #000; text-decoration: none;">STEAM Engine</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratlight" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.4; color: #000; text-align: left;">
+                                                UCF researchers are driving science&rsquo;s next generation through the nation&rsquo;s first mobile geospatial technology learning lab.
+                                                <br> <a class="ctabtn-black-100 montserratsemibold" href="https://www.ucf.edu/pegasus/steam-engine/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link">Read More</a>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </th>
+                                  <th class="columnCollapse" width="290" style="padding-left: 10px; padding-bottom: 20px; padding-right: 0; vertical-align: top;">
+                                    <table class="tableCollapse" align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                      <tr>
+                                        <td style="padding-bottom: 20px; padding-top: 20px; padding-left: 0; padding-right: 0;">
+                                          <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                            <tr>
+                                              <td style="padding-left: 0; padding-right: 0;">
+                                                <a href="https://www.ucf.edu/pegasus/the-art-of-attractions/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-06-TheArtofAttractions.jpg" class="responsiveimg" alt="Illustration of an abstratct pattern that includes elements of theme park attractions" border="0" width="100%"></a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratbold" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; padding-top: 15px; color: #000; padding-bottom: 4px; line-height: 1.1; text-align: left;" align="left">
+                                                <a href="https://www.ucf.edu/pegasus/the-art-of-attractions/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="color: #000; text-decoration: none;">The Art of Attractions</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratlight" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.4; color: #000; text-align: left;">
+                                                  UCF&rsquo;s themed experience students are learning the methods behind entertainment magic.
+                                                 <a href="https://www.ucf.edu/pegasus/the-art-of-attractions/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link" class="ctabtn-black-100 montserratsemibold">Read More</a>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </th>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td style="padding-top: 0; padding-left: 0; padding-right: 0;">
+                                <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                <tr>
+                                  <th class="columnCollapse" width="290" style="padding-right: 10px; padding-bottom: 20px; padding-left: 0; vertical-align: top;">
+                                    <table class="tableCollapse" align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                      <tr>
+                                        <td style="padding-bottom: 20px; padding-top: 0px; padding-left: 0; padding-right: 0;">
+                                          <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                            <tr>
+                                              <td style="padding-left: 0; padding-right: 0;">
+                                                <a href="https://www.ucf.edu/pegasus/a-new-school-of-thought/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-07-NewSchoolofThought.jpg" class="responsiveimg" alt="Painting of a table with food on it." border="0" width="100%"></a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratbold" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; padding-top: 15px; color: #000; padding-bottom: 4px; line-height: 1.1; text-align: left;" align="left">
+                                                <a href="https://www.ucf.edu/pegasus/a-new-school-of-thought/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="color: #000; text-decoration: none;">A New School of Thought</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratlight" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.4; color: #000; text-align: left;">
+                                               <strong class="montserratbold" style="font-weight: bold;">Jacqueline Rodriguez ’13PhD</strong> had no idea her studies and service work would eventually take her to the front lines of one of our nation&rsquo;s most important challenges: learning disabilities. <a href="https://www.ucf.edu/pegasus/a-new-school-of-thought/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link" class="ctabtn-black-100 montserratsemibold">Read More</a>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </th>
+                                  <th class="columnCollapse" width="290" style="padding-left: 10px; padding-bottom: 20px; padding-right: 0; vertical-align: top;">
+                                    <table class="tableCollapse" align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                      <tr>
+                                        <td style="padding-bottom: 20px; padding-top: 0px; padding-left: 0; padding-right: 0;">
+                                          <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                            <tr>
+                                              <td style="padding-left: 0; padding-right: 0;">
+                                                <a href="https://www.ucf.edu/pegasus/more-than-fun-and-games/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-v2-08-MoreThanFunandGames.jpg" class="responsiveimg" alt="Esport athlete getting ready for physical training" border="0" width="100%"></a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratbold" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; padding-top: 15px; color: #000; padding-bottom: 4px; line-height: 1.1; text-align: left;" align="left">
+                                                <a href="https://www.ucf.edu/pegasus/more-than-fun-and-games/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=title" style="color: #000; text-decoration: none;">More Than Fun and Games</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="montserratlight" style="padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.4; color: #000; text-align: left;">
+                                                An athletic training alum fills the very real (and misunderstood) need for professional esports players to stay physically and mentally fit. <a href="https://www.ucf.edu/pegasus/more-than-fun-and-games/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=more-link" class="ctabtn-black-100 montserratsemibold">Read More</a>
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </th>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td style="padding-bottom: 20px; padding-top: 0; padding-left: 0; padding-right: 0;">
+                              <table align="center" style="width: 100%; border-spacing: 0; border-collapse: collapse;"><tbody>
+                                <tr>
+                                  <td style="padding-left: 0; padding-right: 0;">
+                                    <a href="https://dayofgiving.ucf.edu?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=image"><img src="https://s3.amazonaws.com/web.ucf.edu/email/2023-Pegasus-Spring/Spr2023-Email-DoG.jpg" class="responsiveimg" alt="UCF Day of Giving is April 13, 2023 - A Celebration of Knight Nation - Join Us" border="0"></a>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-bottom: 0; padding-top: 30px; padding-left: 0; padding-right: 0; text-align: center" align="center">
+                              <a href="https://www.facebook.com/UCF"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/facebook.png" border="0" alt="Facebook"></a>&nbsp;&nbsp;
+                              <a href="https://twitter.com/UCF"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/twitter.png" border="0" alt="Twitter"></a>&nbsp;&nbsp;
+                              <a href="https://www.linkedin.com/school/university-of-central-florida/"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/linkedin.png" border="0" alt="LinkedIn"></a>&nbsp;&nbsp;
+                              <a href="https://www.instagram.com/ucf.edu/"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/instagram.png" border="0" alt="Instagram"></a>&nbsp;&nbsp;
+                              <a href="https://www.youtube.com/user/UCF"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/youtube.png" border="0" alt="YouTube"></a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td style="padding-bottom: 10px; padding-top: 30px; padding-left: 0; padding-right: 0; text-align: center;" align="center">
+                              <a href="https://www.ucf.edu/pegasus/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023&utm_content=pegasus-logo"><img src="https://s3.amazonaws.com/web.ucf.edu/email/common-assets/logo-pegasus.png" alt="Pegasus" border="0"></a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratbold" style="text-align: center; padding-top: 10px; padding-bottom: 10px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; color: #000;" align="center">
+                              <a style="text-decoration: none; color: #000;" href="https://www.ucf.edu/pegasus/about/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023">About the Magazine</a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratbold" style="text-align: center; padding-bottom: 10px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; color: #000;" align="center">
+                              <a style="text-decoration: none; color: #000;" href="https://www.ucf.edu/pegasus/suggest-a-story/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023">Suggest a Story</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                              <a style="text-decoration: none; color: #000;" href="https://www.ucf.edu/pegasus/tell-us-what-you-think/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023">Tell Us What You Think</a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratbold" style="text-align: center; padding-bottom: 30px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; color: #000;" align="center">
+                              <a style="text-decoration: none; color: #000;" href="https://www.ucffoundation.org/givenow">Give to UCF</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                              <a style="text-decoration: none; color: #000;" href="https://ucfalumni.com/">UCF Alumni</a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratbold" style="text-align: center; padding-bottom: 2px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-transform: uppercase; color: #000; letter-spacing: 1.25px;" align="center">
+                              <a style="text-decoration: none; color: #000;" href="https://www.ucf.edu/?utm_source=pegasus&utm_medium=email&utm_campaign=spring2023">University of Central Florida</a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratlight" style="text-align: center; padding-bottom: 2px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #000;" align="center">
+                              4000 Central Florida Blvd.
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td class="montserratlight" style="text-align: center; padding-bottom: 20px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #000;" align="center">
+                              Orlando, FL 32816
+                            </td>
+                          </tr>
+                          <tr>
+<td align="center" class="montserratlight" style="text-align: center; padding-bottom: 20px; padding-left: 0; padding-right: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #000;">
+<a href="[% unsub_url %]">Unsubscribe</a>
+</td>
+</tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+</body></html>
